@@ -1,0 +1,92 @@
+#tableHolder {
+	overflow: auto;
+ width: 60%;
+ display: block;
+ margin: 0px auto;
+ padding: 4px;
+ border: 2px inset brown;
+ text-overflow: ellipsis;
+ border: 2px outset brown;
+ border-radius: 20px;
+}
+
+.hf {
+  width: 75%;
+  text-align: center;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-weight: bolder;
+  color: brown;
+  margin: 4px auto;
+  border: 4px double brown;
+  border-radius: 20px;
+}
+  
+#mainTable {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: baseline;
+  flex-wrap: nowrap;
+  align-content: center;
+  width: 100%;
+  border: 2px outset brown;
+  margin: 0px auto;
+  border-collapse: separate;
+  border-spacing: 4px;
+  border-radius: 20px;
+}
+
+#mainTable td:first-child {
+	border: none;  
+}
+
+td{
+  display: table-cell;
+  padding: 4px; 
+  border: 2px outset brown;
+  font-size: 12px;
+}
+
+#row0_theadTop {
+ font-family: Tahoma, Geneva, sans-serif;
+	font-size: larger;
+ font-variant: small-caps;
+ color: white;
+	-webkit-text-stroke: .5px black;
+  text-shadow: 2px 2px 0px black;
+}
+
+th {
+	border: 2px outset brown;  
+}
+
+.col0_theadLeft {
+	font-size: larger;
+	color: brown;  
+}
+
+.col0_theadLeft td {
+	text-align: center;  
+}
+
+#columnn1_name, #columnn2_address, #columnn3_phone, #columnn4_hos, #columnn5_links{
+  background: brown;
+}
+
+#mainImg{
+	width: 70%;
+ height: auto;
+ min-width: 100px;
+ margin-top: 10px;  
+}
+
+.td_img {
+	display: list-item;
+ list-style-image: url(pantry3_resized.jpg); 
+ list-style-position: inside;
+ border: none;
+}
+
+a {
+	text-decoration: none;  
+}
